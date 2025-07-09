@@ -1,16 +1,22 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
+import logoImage from './assets/logo.png'; // adjust path if needed
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       {/* Optional placeholder for content */}
-      <div className="main-content">
-        <h1>Welcome to Aggie Assistant</h1>
-        <p></p>
-        <p>This is the homepage content.</p>
+      <div className="main-title">
+        <img src={logoImage} alt="Logo" className="logo-img" />
+        <h1>Howdy, Aggies!</h1>
+       
+      </div>
+      <div className="main-subtitle">
+        <p>Your comprehensive AI-powered academic counselor. Get personalized guidance on </p>
+        <p> courses, GPA planning, career paths, graduation requirements, and everything you </p>
+        <p> need to succeed at Texas A&M.</p>
       </div>
     </div>
   );

@@ -18,10 +18,21 @@ body, html, #root {
   min-height: 100vh;
 }
 
-/* Optional main content area */
-.main-content {
-  flex: 1;
-  padding: 15rem;
+.main-title {
+  padding: 2.5rem;
   text-align: center;
-  color:  #800000
+  color: #800000;
+}
+
+.main-subtitle {
+  text-align: center;
+  color: #808080;
+}
+
+.main-title h1 {
+  margin-bottom: 0.1rem; /* or adjust to your desired spacing */
+}
+
+.main-subtitle p {
+  margin: 0.2rem 0; /* reduce vertical spacing between lines */
 }
