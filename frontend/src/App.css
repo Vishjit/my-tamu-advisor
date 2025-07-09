@@ -19,7 +19,8 @@ body, html, #root {
 }
 
 .main-title {
-  padding: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
   text-align: center;
   color: #800000;
 }
@@ -30,9 +31,25 @@ body, html, #root {
 }
 
 .main-title h1 {
-  margin-bottom: 0.1rem; /* or adjust to your desired spacing */
+  margin-bottom: 0.02rem; /* or adjust to your desired spacing */
 }
 
 .main-subtitle p {
   margin: 0.2rem 0; /* reduce vertical spacing between lines */
+}
+
+.badge-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.custom-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #500000;
+  background-color: #f5f5f5;
+  border: 1.5px solid #500000;
+  border-radius: 999px;
 }

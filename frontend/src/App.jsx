@@ -18,7 +18,14 @@ function App() {
         <p> courses, GPA planning, career paths, graduation requirements, and everything you </p>
         <p> need to succeed at Texas A&M.</p>
       </div>
-    </div>
+
+      <div className="badge-container">
+        <span className="custom-badge">
+          One Smart AI • All Your Academic Needs
+        </span>
+      </div>
+
+    </div>  
   );
 }
 
